@@ -29,14 +29,33 @@
        ul{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 22px;
-        color: midnightblue;
+        color: red;
        }
-     
-       img {
-  transition: box-shadow 2.0s ease;
+     img {
+   width: 200px;
+  height: auto;
+  transition: transform 0.3s ease;
 }
+
 img:hover {
-  box-shadow:0 0 900px rgb(7, 218, 24)
+  transform: scale(1.1); /* zoom in */
+}
+ body{
+            background-color: #1141df;
+        }
+        h1 {
+  animation: colorFlash 3s infinite alternate;
+}
+
+@keyframes colorFlash {
+  0%   { color: #3498db; }
+  50%  { color: #e74c3c; }
+  100% { color: #2ecc71; }
+}
+
+.mayukkhh{
+  color: white;
+  background-color: black;
 }
         </style>
         <body>
@@ -65,5 +84,8 @@ img:hover {
                 <li></li>
                 <li></li>
             </ul>
+             <footer class="mayukkhh">
+      <p> this is made by mayukh !</p>
+    </footer>
         </body>
 </html>

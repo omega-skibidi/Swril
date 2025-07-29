@@ -18,7 +18,7 @@
        p{
         font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
-        color: blueviolet;
+        color: rgb(219, 216, 16);
        }
        .oversite{
         font-size: 19px;
@@ -59,14 +59,14 @@
        }
 
         body{
-            background-color: #d38511;
+            background-color: #1141df;
         }
 
      button {
   padding: 15px 25px;
   font-size: 16px;
   color: white;
-  background: linear-gradient(to right, #00c6ff, #0072ff);
+  background: linear-gradient(to right, #e00a0a, #b30b0b);
   background-size: 0% 100%;
   background-repeat: no-repeat;
   transition: background-size 0.5s ease;
@@ -79,22 +79,41 @@ button:hover {
 }
 
 img {
-  transition: box-shadow 2.0s ease;
+   width: 200px;
+  height: auto;
+  transition: transform 0.3s ease;
 }
+
 img:hover {
-  box-shadow:0 0 900px rgb(7, 218, 24)
+  transform: scale(1.1); /* zoom in */
 }
+
+h1 {
+  animation: colorFlash 3s infinite alternate;
+}
+
+@keyframes colorFlash {
+  0%   { color: #3498db; }
+  50%  { color: #e74c3c; }
+  100% { color: #2ecc71; }
+}
+
+.mayukkhh{
+  color: white;
+  background-color: black;
+}
+
          </style>
     <title> Your Go To Airplane Guide</title>
     <link rel="icon" type="image/jpg" href="my favicon.jpg">
 </head>
 <body>
     <h1>"The Modern Air Traveler's Hub"</h1>
-    <a href="file:///C:/Users/DELL/Documents/GitHub/Swril/project/fdfggd.html">
-        <div style="text-align: center;">
+    <div style="text-align: center;">
+    <a href="file:///C:/Users/DELL/Documents/GitHub/Swril/project/boeing.html">
     <button> BOEING</button>
     </a>
-    <a href="file:///C:/Users/DELL/Documents/GitHub/Swril/project/uidbeuh.html">
+    <a href="file:///C:/Users/DELL/Documents/GitHub/Swril/project/Airbus.html">
         <button>AIRBUS</button>
     </a>
     <a href="file:///C:/Users/DELL/Documents/GitHub/Swril/project/fun.html">
@@ -123,6 +142,11 @@ img:hover {
     <audio controls>
         <source src="plane.mp3" type="audio/mpeg">
         ur computer has virus. do not redeem 
-      </audio>
+    </audio>
+    <footer class="mayukkhh">
+      <p> this is made by mayukh !</p>
+    </footer>
+      
+      
 </body>
 </html>
